@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class NumberOfPair {
     public static void main(String[] args) {
         NumberOfPair numberOfPair = new NumberOfPair();
-        System.out.println(numberOfPair.numIdenticalPairs(new int[]{1,2,3}));
+        System.out.println(numberOfPair.numIdenticalPairs(new int[]{3,5,6,3,3,5}));
     }
 
     public int numIdenticalPairs(int[] nums) {
